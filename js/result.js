@@ -3,7 +3,7 @@ function gread_bangla(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_bangla").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_bangla").innerHTML ='bangla: input valide number'.toUpperCase();
         alert('Please Check Your Bangla subject Number')
      
     }else if(number >=33 && number < 40){
@@ -40,7 +40,7 @@ function gread_english(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_english").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_english").innerHTML ='english: input valide number'.toUpperCase();
         alert('Please Check Your english subject Number')
      
     }else if(number >=33 && number < 40){
@@ -77,7 +77,7 @@ function gread_math(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_math").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_math").innerHTML ='math: input valide number'.toUpperCase();
         alert('Please Check Your math subject Number')
      
     }else if(number >=33 && number < 40){
@@ -114,7 +114,7 @@ function gread_arbi(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_arbi").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_arbi").innerHTML ='arbi: input valide number'.toUpperCase();
         alert('Please Check Your arbi subject Number')
      
     }else if(number >=33 && number < 40){
@@ -151,7 +151,7 @@ function gread_quran(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_quran").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_quran").innerHTML ='quran: input valide number'.toUpperCase();
         alert('Please Check Your quran subject Number')
      
     }else if(number >=33 && number < 40){
@@ -188,7 +188,7 @@ function gread_hadis(number){
 
     if(number <0 || number > 100){
 
-        document.getElementById("result_show_hadis").innerHTML ='input valide number'.toUpperCase();
+        document.getElementById("result_show_hadis").innerHTML ='hadis: input valide number'.toUpperCase();
         alert('Please Check Your hadis subject Number')
      
     }else if(number >=33 && number < 40){
