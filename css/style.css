@@ -1,0 +1,88 @@
+:root{
+    --pg:#555555;
+    --brand1:rgb(35, 78, 196);
+    --brand2:rgb(22, 154, 206);
+    --brand3:blue;
+    --white:#ffffff;
+    --black:#353535;
+    --border:1px solid red;
+}
+/* body{} */
+.main_body {
+    background-color: #5bc4f47d;
+    backdrop-filter: blur(5px);
+}
+/* .result{} */
+.result .result_input{
+    display: block;
+    border: 1px solid var(--brand2);
+    border-radius: 5px;
+    background-color: rgb(22, 154, 206);
+}
+.result .result_input .result_input_heading{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+.result .result_input .subject{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10px;
+
+}
+.result .result_input .subject label{
+    text-transform: uppercase;
+    align-self: center;
+    font-weight: 600;
+    
+}
+.result .result_input .subject input{
+    width: 30%;
+    padding: 10px;
+    align-self: center;
+    border-radius: 5px;
+    border:1px solid rgb(0, 238, 255);
+}
+
+.result .result_input .subject input:hover{
+    border:1px solid red;
+    background-color: rgba(0, 255, 234, 0.356);
+}
+.result .result_input .subject input:focus{
+    border:1px solid rgb(9, 255, 0);
+}
+.result .result_input .button{
+    text-align: right;
+}
+.result .result_input .button button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: var(--brand1);
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.result .result_input .button button:active{
+    background-color: #11613c;
+    
+}
+
+.result .result_output{
+    border: 1px solid var(--brand2);
+    border-radius: 5px;
+    margin-top: 30px;
+    background-color: rgb(22, 154, 206);
+}
+.result .result_output .show{
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 26px;
+    margin: 10px 0px;
+    
+}
+.result .result_output .result_output_heading{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}

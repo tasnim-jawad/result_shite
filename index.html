@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>mobile view</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- <link rel="shortcut icon" href="img/"> -->
+        
+            <meta charset="UTF-8">
+            <meta name="robots" content="index, follow">
+        
+            <meta http-equiv="cache-control" content="no-cache">
+            <meta http-equiv="expires" content="5000000">
+            <!-- <meta http-equiv="refresh" content="5"> -->
+        
+            <meta name="keywords" content="byinghouse,textile,texsource">
+            <meta name="description" content="you learn every things about html">
+            <meta name="author" content="amanullah">
+            <meta name="copyrigth" content="www.mysite.com">
+            <meta name="revisit" content="5 days">
+        
+            <meta property="og:title" content="html learn" />
+            <meta property="og:site_name" content="adfas" />
+            <meta property="og:description" content="" />
+            <meta property="og:type" content="article" />
+            <meta property="og:url" content="http://" />
+            <meta property="og:image" content="http://" />
+            <meta property="og:image:width" content="600" />
+            <meta property="og:image:height" content="315" />
+        
+            <meta name="twitter:title" content="">
+            <meta name="twitter:description" content="">
+            <meta name="twitter:image" content="http://">
+            <meta name="twitter:card" content="summary_large_image">
+
+
+            <link rel="stylesheet" href="fonts/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+            <link rel="stylesheet" href="css/default.css">
+            <link rel="stylesheet" href="css/mobile_view.css">
+            <link rel="stylesheet" href="css/style.css">
+            
+
+            
+    </head>
+    <body>
+
+        <main class="main_body">
+            <div class="top">
+                <div class="top_content">
+                    <div class="left">
+                        <a href="#">
+                            <i class="fas fa-align-left"></i>
+                        </a>
+                    </div>
+                    <div class="center">
+                        <form action="#">
+                            <input type="text">
+                            <button><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="right">
+                        <a href="#">
+                            <i class="fas fa-user-circle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mid">
+                <div class="content_body">
+                    <div class="content_aliment">
+                       <div class="result">
+                           <form action="#" name="gread_result">
+                                <div class="result_input">
+                                    <h1 class="result_input_heading">Grade Result</h1>
+                                    <div class="subject">
+                                        <label for="bangla">bangla</label>
+                                        <input type="number" id="bangla" name="bangla">
+                                    </div>
+                                    <div class="subject">
+                                        <label for="english">english</label>
+                                        <input type="number" id="english" name="english">
+                                    </div>
+                                    <div class="subject">
+                                        <label for="math">math</label>
+                                        <input type="number" id="math" name="math">
+                                    </div>
+                                    <div class="subject">
+                                        <label for="arbi">arbi</label>
+                                        <input type="number" id="arbi" name="arbi">
+                                    </div>
+                                    <div class="subject">
+                                        <label for="quran">quran</label>
+                                        <input type="number" id="quran" name="quran">
+                                    </div>
+                                    <div class="subject">
+                                        <label for="hadis">hadis</label>
+                                        <input type="number" id="hadis" name="hadis">
+                                    </div>
+                                    <div class="button">
+                                        <button type="button" onclick="gread_bangla(gread_result.bangla.value),gread_english(gread_result.english.value),gread_math(gread_result.math.value),gread_arbi(gread_result.arbi.value),gread_quran(gread_result.quran.value),gread_hadis(gread_result.hadis.value)">submt</button>
+                                    </div>
+                                </div>
+                                <div class="result_output">
+                                    <h1 class="show result_output_heading">Grade Result</h1>
+                                    <h1 class="show" id="result_show_bangla"></h1>
+                                    <h1 class="show" id="result_show_english"></h1>
+                                    <h1 class="show" id="result_show_math"></h1>
+                                    <h1 class="show" id="result_show_arbi"></h1>
+                                    <h1 class="show" id="result_show_quran"></h1>
+                                    <h1 class="show" id="result_show_hadis"></h1>
+                                </div>
+                           </form>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="botom_content">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-photo-video"></i>
+                                <span>media</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-book"></i>
+                                <span>books</span>
+                            </a>
+                        </li>
+                        <li class="home_button">
+                            <a href="#">
+                                <i class="fas fa-home"></i>
+                                <span>home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-info-circle"></i>
+                                <span>info</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-download"></i>
+                                <span>download</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        
+        <script src="js/result.js"></script>
+    </body>
+</html>
